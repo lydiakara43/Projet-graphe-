@@ -1,0 +1,23 @@
+# Build outputs
+*.exe
+*.o
+*.obj
+*.out
+
+# Large local dataset kept outside the web-upload bundle
+data/wiki-RfA.txt
+
+# Local generated upload/export folders
+/_github_upload*/
+*.zip
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
